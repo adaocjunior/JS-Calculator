@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pageic" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+<body>
+    <header id="pageHeader">
+        <h1>Calculator</h1>
+    </header>
+    <div id="calculatorBody">
+        <div id="calculatorBodyDiv">
+            <div id="screenDiv">
+                <p id="screenResult"></p>
+            </div>
+            <div id="calculatorButtons">
+                <div id="lineOne">
+                    <button class="calculatorButton" onclick="calculator('-')">-</button>
+                    <button class="calculatorButton" onclick="calculator('+')">+</button>
+                    <button class="calculatorButton" onclick="calculator('*')">X</button>
+                </div>
+                <div id="lineTwo">
+                    <button class="calculatorButton" onclick="calculator('/')">/</button>
+                    <button class="calculatorButton" onclick="clearCalculator()">C</button>
+                    <button class="calculatorButton" onclick="backspaceFunction()">B</button>
+                </div>
+                <div id="lineTree">
+                    <button class="calculatorButton" onclick="calculator(9)">9</button>
+                    <button class="calculatorButton" onclick="calculator(8)">8</button>
+                    <button class="calculatorButton" onclick="calculator(7)">7</button>
+                </div>
+                <div id="lineFor">
+                    <button class="calculatorButton" onclick="calculator(6)">6</button>
+                    <button class="calculatorButton" onclick="calculator(5)">5</button>
+                    <button class="calculatorButton" onclick="calculator(4)">4</button>
+                </div>
+                <div id="lineFive">
+                    <button class="calculatorButton" onclick="calculator(3)">3</button>
+                    <button class="calculatorButton" onclick="calculator(2)">2</button>
+                    <button class="calculatorButton" onclick="calculator(1)">1</button>
+                </div>
+                <div id="lineSix">
+                    <button class="calculatorButton" onclick="calculator(0)">0</button>
+                    <button class="calculatorButton" onclick="calculator('.')">,</button>
+                    <button class="calculatorButton" onclick="equal()">=</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
